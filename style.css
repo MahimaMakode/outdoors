@@ -241,10 +241,13 @@ footer p{
         top: 10vh;
         width: 50%;
         height: 45%;
-        background-color: #125e6f;
+        background-color: rgba(42, 88, 140, 0.722);
         right: -100%;
         z-index: 999;
 
+    }
+    #nav h1{
+        font-size:2rem;
     }
     #navbar a{
         display: block;
