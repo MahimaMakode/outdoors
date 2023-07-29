@@ -1,0 +1,299 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height:100%;
+    background-color: black;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+#main{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(4, 9, 30, 0.507),rgba(4, 9, 30, 0.595)),url(Cheap\ Travel_\ How\ to\ get\ across\ Canada\ on\ a\ budget!.jpg);
+    background-size: cover;
+}
+#nav{
+    width: 100vw;
+    height: 6vh;
+    background-color: rgba(42, 88, 140, 0.722);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+#nav h1{
+    text-transform: uppercase;
+    color: white;
+}
+#navbar a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-right: 110px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+#navbar i{
+    position: relative;
+    top: 2px;
+    right: 10px;
+}
+#checkbtn{
+    display: none;
+}
+#check{
+    display: none;
+}
+#contain{
+    color: white;
+    text-transform: capitalize;
+    position: absolute;
+    top: 39%;
+    left: 30%;
+    text-align: center;
+}
+#contain h1{
+    font-size: 70px;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    color: transparent;
+    
+    text-decoration-line: white;
+}
+#contain p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+#main2{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    height: fit-content;
+    
+}
+#text{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 80px;
+    /* background-color: #fff; */
+    font-size: .5rem;
+    flex-wrap: wrap;
+}
+#main2>.text2{
+    text-align: center;
+    padding-top: 3%;
+    margin-bottom:5%;
+    text-transform: capitalize;
+}
+.text2 h1{
+    font-size: 35px;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.text2 p{
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    color: white;
+}
+
+.text1{
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    border-radius: 1rem;
+}
+.text1 img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.text1 .img-comment{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    bottom: 1rem;
+    z-index: 99;
+    color: white;
+}
+.img-comment h2{
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: bold;
+}
+.img-comment h3{
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.ang{
+    margin-top: 5%;
+    padding: 0 0 1.5rem 0;
+}
+.ang>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(249, 248, 249);
+    border-radius: 15px 0 15px 0;
+    padding: 8px 20px;
+    width: fit-content;
+    margin: 2rem auto;
+}
+.ang a{
+    text-decoration: none;   
+    color: rgb(243, 239, 239);
+}
+.ang i{
+    font-size: 25px;
+}
+#main3{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+.text3{
+    text-align: center;
+    padding-top: 3%;
+    margin-bottom:5%;
+    text-transform: capitalize;
+}
+.text3 h2{
+    font-size: 40px;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.text3 p{
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    color: white;
+}
+#text4{
+    color: white;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: fit-content; */
+
+}
+.text5{
+    text-align: center;
+    /* width: 50%; */
+}
+.text5 img{
+    width: 70%;
+}
+#text4 h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+#text4 h2{
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+#main4{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(45deg,rgba(11, 4, 63, 0.116),rgba(10, 6, 104, 0.286)),url(https://i.pinimg.com/564x/41/91/21/41912146be3fc2fe1293ed0f1a85e838.jpg);
+    background-size: cover;
+    position: relative;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 8%;
+    position: absolute;
+    bottom: 0%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+footer p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+@media(max-width:500px){
+    #main{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #navbar{
+        position: fixed;
+        top: 10vh;
+        width: 50%;
+        height: 45%;
+        background-color: #125e6f;
+        right: -100%;
+        z-index: 999;
+
+    }
+    #navbar a{
+        display: block;
+        text-align: center;
+        padding: 15px 0;
+        color: white;
+    }
+    
+    #checkbtn{ 
+        display : block;
+        font-size: 25px;
+    }
+
+    #check:checked ~ #navbar{
+        right:0;
+    }
+    #contain{
+        flex-direction: column;
+        /* position: relative; */
+       position: absolute;
+       top: 45%;
+       left: 10%;
+    }
+    #contain h1{
+        font-size: 50px;
+    }
+    #contain p{
+        font-size: 20px;
+    }
+    #main2{
+        height: fit-content;
+
+    }
+    #main2 .text2 p{
+        margin-bottom: 20px;
+    }
+    #main3{
+        height: fit-content;
+    }
+    #text4{
+        flex-direction: column;
+        gap: 40px;
+    }
+    #main4{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+    }
+    footer p{
+        font-size: 10px;
+    }
+}
